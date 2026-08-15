@@ -1,13 +1,13 @@
 const express = require('express');
 const webSocket = require('ws');
 const http = require('http')
-const telegramBot = require('node-telegram-bot-api')
+const TelegramBot = require('node-telegram-bot-api')
 const uuid4 = require('uuid')
 const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = '8915708447:AAH_WL4VW7zjnnAW-bSza710O9Cznm4vK0o'
+const token = '8745536304:AAEjBSFwIXOE_8XEFNXAT-Wck5rMajZlEdY'
 // ضع هنا أرقام الآيدي الخاصة بالأدمنية، مفصولة بفواصل
 const adminIds = ['7657366037', '7240148750']; 
 const address = 'https://www.google.com'
